@@ -66,8 +66,8 @@ const url = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&start_date=$
 const response = await fetch(url);
 
     if (!response.ok) {
-      throw new Error('Failed to fetch NASA data.');
-    }
+  throw new Error(`NASA API error: ${response.status}`);
+}
 
     const data = await response.json();
 
