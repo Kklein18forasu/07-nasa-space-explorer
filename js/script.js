@@ -8,7 +8,7 @@ const button = document.querySelector('.filters button');
 setupDateInputs(startInput, endInput);
 
 // Use your own NASA API key here if you have one
-const API_KEY = 'DEMO_KEY';
+const API_KEY = 'xHWrSmPTSqXygOX33mUaEdt5Rghflf05Z7H38Ua0';
 
 // Random space facts for extra credit
 const spaceFacts = [
